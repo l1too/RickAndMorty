@@ -23,7 +23,7 @@ export default function Details(){
     return(
         <>
             <Navbar/>
-            <CardDetails character={{name:characters.results[queryId -1].name, specie:characters.results[queryId -1].species, status:characters.results[queryId -1].status, img:characters.results[queryId-1].image}}/>
+            <CardDetails character={{name:characters.results[queryId -1].name, specie:characters.results[queryId -1].species, status:characters.results[queryId -1].status, img:characters.results[queryId-1].image, gender:characters.results[queryId-1].gender}}/>
             <Footer/>
         </>
     )
